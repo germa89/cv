@@ -8,8 +8,8 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Dr Germ&aacute;n Mart&iacute;nez-Ayuso
-    tagline: PhD, Software Engineer
+    name: Germ&aacute;n Mart&iacute;nez-Ayuso
+    tagline: Senior Software Engineer
     avatar: ger3.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -38,12 +38,6 @@ sidebar:
       - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Beginner
-
-      # - idiom: Arabic
-      #   level: Beginner
-
     interests:
       title: Interests
       info:
@@ -63,99 +57,100 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a civil engineer with software development focus. I do posses extensive experience in python programming, software development, and continuous integrations-continuous deployment (CI/CD).
-
-      Experienced with machine learning algorithms such as K-Nearest neighbors and neural networks, which I have applied to different research and business cases.
-
-      My interests are also related to civil engineering, more specifically materials modelling and structural design.
+      Senior Software Engineer at ANSYS specializing in Python, DevOps, and CI/CD.
+      Core contributor to PyMAPDL with 472+ GitHub stars.
+      Focused on AI automation and intelligent systems.
   
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
 
-      - name: Programming
-        details: Python, Matlab, C++
-        level: 90%
+      - name: Python
+        details: NumPy/Pandas/pytest
+        level: 80%
 
-      - name: Software development
-        details: CICD, OOP
+      - name: Software Design
+        details: OOP/Testing/Design Patterns
+        level: 80%
+
+      - name: Project Management
+        details: Git/Agile/Coordination
         level: 70%
 
-      - name: Structural engineering
-        details: Finite element methods
+      - name: API Development
+        details: gRPC/REST/FastAPI
         level: 70%
 
-      - name: Data Analysis
-        details: Cleaning, Visualization
+      - name: DevOps
+        details: Docker/CI-CD/GitHub Actions
         level: 70%
 
-      - name: Data science tools
-        details: Numpy, Pandas
-        level: 70%
-
-      - name: Cloud computing
-        details: Azure, GCP
-        level: 70%
-
-      - name: Machine learning
-        details: Sk-learn, TensorFlow
+      - name: Cloud
+        details: Azure/Linux/Bash
         level: 60%
+
+      - name: Frontend
+        details: JavaScript/React/HTML-CSS
+        level: 55%
+
+      - name: AI Systems
+        details: RAG/Automation/LLM Integration
+        level: 60%
+
+      - name: Machine Learning
+        details: TensorFlow/scikit-learn
+        level: 55%
 
 
 experiences:
     title: Experiences
     info:
-    - role: Senior Research and Development Engineer
+    - role: Senior R&D Engineer
       time: 2023 - Present
-      company: Ansys Inc
+      company: Ansys Inc, Remote
       details: |
-          - Main maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) library, an open source Python interface to Ansys MAPDL structural solvers.
-          - Co-owner of [Ansys github enterprise organization](https://github.com/ansys). Help to maintain Azure CICD pipelines and implementing best practices.
-          - Co-maintainer of [MAPDL solver Ubuntu docker image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl)  Containerization of applications for cloud deployment.
-          - Contributor to MAPDL solver and its gRPC data interface. Implementation of new methods to transfer data from the C++ application server to a Python client.
-          - Mentoring new employees and interns.
-          - Supporting customer engagements.
+          PyAnsys Ecosystem - Main Maintainer of PyMAPDL
+          - Lead maintainer of [PyMAPDL](https://github.com/ansys/pymapdl) (472+ stars): gRPC API development for Python-C++ interface
+          - Architected CI/CD pipelines with GitHub Actions for automated testing and deployment
+          - Docker containerization: [MAPDL solver Ubuntu image](https://github.com/ansys/pymapdl/pkgs/container/pymapdl%2Fmapdl) for cloud deployment
+          - Managed 200+ issues/PRs with comprehensive documentation and code reviews
+          - Mentoring engineers and supporting customer engagements
 
-    - role: Research and Development Engineer II
-      time: 2022 - 2023
-      company: Ansys Inc
+    - role: R&D Engineer
+      time: 2021 - 2023
+      company: Ansys Inc, Córdoba, Spain
       details: |
-          - Contributor to [PyMAPDL](https://github.com/pyansys/pymapdl) library.
-          - Supporting other Ansys libraries [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme), etc
-          - Supporting the technological transformation of business units. Implementing best code practices, maintaining CICD pipelines in many organization packages, etc.
+          PyAnsys Ecosystem - Core Contributor
+          - Developed Python libraries for ANSYS products: [PyMAPDL](https://github.com/ansys/pymapdl), [ansys/actions](https://github.com/ansys/actions), [ansys-tools-path](https://github.com/ansys/ansys-tools-path), [ansys-sphinx-theme](https://github.com/ansys/ansys-sphinx-theme)
+          - Implemented gRPC-based APIs for client-server communication
+          - Built automated testing frameworks and CI/CD pipelines
+          - Created developer tools and comprehensive documentation
+          - Drove technological transformation with code best practices
 
-    - role: Research Officer in Data Science
-      time: 2020 - 2021
+    - role: Research Officer
+      time: 2020
       company: Medical School, Swansea University, Swansea, UK
       details: |
-          - Application of machine learning algorithms (clustering and deep learning techniques) to detect abnormal behaviour in real cardiac cells optical data and fluorescent calcium measurements.
-          - Image processing for data extraction. Application of machine learning techniques to extract data features. 
-          - Design and development of a workflow to analise of microscope images. Development of a graphic user interface in Python.  
+          - Applied machine learning algorithms (clustering and deep learning) to detect abnormal behavior in cardiac cells optical data
+          - Developed Python-based GUI workflow for microscope image analysis and data extraction  
 
     - role: Research Fellow
       time: 2019 - 2020
-      company: Institute of Material Discovery, University College of London, London, UK
+      company: Institute of Materials Discovery, University College of London, London, UK
       details: |
-          - Using numerical techniques based on finite element methods and machine learning techniques to optimise industrial composites such as honeycomb or recycled aggregates. 
-          - Collaborated with colleagues using Machine Learning to predict materials properties and accelerate materials discovery. Text mining on research databases. 
-          - Collaborated with industrial and academic partners to develop a web platform for industry access to materials modelling expertise. This project was funded by the European Union and companies such as Fraunhofer, Enthought, Bosch, etc. 
+          - Applied FEM and ML techniques to optimize industrial composites (honeycomb, recycled aggregates)
+          - Collaborated on ML for materials property prediction and text mining research databases
+          - Co-developed web platform for industry access to materials modeling expertise (EU-funded, Fraunhofer/Enthought/Bosch) 
 
-    - role: Project officer
+    - role: Project Officer
       time: 2018 - 2019
-      company: Swansea University, Swansea, UK
+      company: ASTUTE2020, Swansea University, Swansea, UK
       details: |
-          - Application of techniques from the domain of data science such as data pre-processing, neural networks and multi constraint optimisation to reduce costs in steel manufacturing industry. 
-          - Developed an addon in Python and JavaScript for a commercial finite element software ANSYS. This addon integrates in the interface of ANSYS application and perform operations to simplify continuum mechanics calculations.
-          - Developed Python scripts to collect and analyse large data sets from internal company website to analyse machinery performance and propose optimisations.
-          - Developed numerical models to improve manufacturing processes in the industry. The processes range from material behavior prediction to optimisation of properties such as geometry, elastic properties, viscosity, etc.
-
-    - role: Research Assistant
-      time: 2017
-      company: Swansea University, Swansea, UK
-      details: |
-        Developed numerical models of a wing energy harvester using Matlab to couple different commercial software. 
-        Used Matlab to analyse and study large data sets from experiments. 
+          - Applied data science techniques (neural networks, multi-constraint optimization) to reduce costs in steel manufacturing
+          - Developed Python/JavaScript addon for ANSYS to simplify continuum mechanics calculations
+          - Built Python scripts to analyze machinery performance data and propose optimizations
+          - Created numerical models for manufacturing process improvement 
 
 projects:
     title: Data Science Projects
